@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		938C69032EFBC40A0002DF4B /* MVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		96E8DE9D2EFA7C5800A34D5F /* Bakery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Bakery;
@@ -32,6 +37,7 @@
 		96E8DE922EFA7C5800A34D5F = {
 			isa = PBXGroup;
 			children = (
+				938C69032EFBC40A0002DF4B /* MVVM */,
 				96E8DE9D2EFA7C5800A34D5F /* Bakery */,
 				96E8DE9C2EFA7C5800A34D5F /* Products */,
 			);
@@ -61,6 +67,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				938C69032EFBC40A0002DF4B /* MVVM */,
 				96E8DE9D2EFA7C5800A34D5F /* Bakery */,
 			);
 			name = Bakery;

@@ -11,7 +11,8 @@ import SwiftUI
 struct BakeryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BakeView()
         }
     }
 }
+
