@@ -12,10 +12,10 @@ struct BakeView: View {
         // 1. TabView is now the outermost wrapper
         TabView {
             
-            // 2. Wrap your entire UI inside the first Tab
+            // 2. Wrapping the entire UI inside the first Tab
             Tab("Bake", image: "Bread_Icon") {
                 
-                // MARK: - Main VStack (YOUR ORIGINAL CODE STARTS HERE)
+                // MARK: - Main VStack
                 VStack {
                     
                     ZStack{
@@ -149,12 +149,12 @@ struct BakeView: View {
                     }
                     .listStyle(.plain)
                 }
-                .background(Color.gray.opacity(0.2)) // Your background applied to the content
-                // (YOUR ORIGINAL CODE ENDS HERE)
+                .background(Color.gray.opacity(0.2))
+                // Main VStack ends here
                 
             } // End of Bake Tab
             
-            // 3. Definition of other tabs
+            
             Tab("Courses", image: "WoodRoller_Icon") {
                 Text("Courses View")
             }
